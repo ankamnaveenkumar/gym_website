@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="home.css">
+    <style>
+        /* Additional CSS (if needed) */
+    </style>
+</head>
+<body>
+    <header>
+        <video autoplay muted loop id="background-video">
+            <source src="images/5319099-uhd_3840_2160_25fps (1) (online-video-cutter.com).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay-text">
+            <h1><span class="transparent-word">GOAL IS TO</span> GET FIT,</h1>
+            <h2>FEEL GREAT.</h2>
+            <a href="registration.php" class="btn join-us">Join Now</a>
+        </div>
+        <nav>
+            <div class="logo">
+                <img src="images/Dark Blue and Brown Illustrative Fitness Gym Logo.jpg" alt="Fitness Logo">
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">About Us</a>
+                    <ul class="dropdown">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Timetable</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Classes</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Cardio</a></li>
+                        <li><a href="#">Yoga</a></li>
+                        <li><a href="#">Strength Training</a></li>
+                        <li><a href="#">HIIT</a></li>
+                        <li><a href="#">Pilates</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#" class="btn join-us">Join Us</a></li>
+                <li><a href="#" class="btn free-trial">Free Trial</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div class="image-card" id="time-table">
+            <div class="content">
+                <a href="#">
+                    <img src="images/shutterstock_1061709296.jpg" alt="Time Table">
+                    <div class="text-overlay">Time Table</div>
+                </a>
+            </div>
+        </div>
+        <div class="image-card" id="classes">
+            <div class="content">
+                <a href="#">
+                    <img src="images/iStock-1141197680.jpg" alt="Classes">
+                    <div class="text-overlay">Classes</div>
+                </a>
+            </div>
+        </div>
+        <div class="image-card" id="join-us">
+            <div class="content">
+                <a href="#">
+                    <img src="images/istockphoto-1391410249-1024x1024.jpg" alt="Join Us">
+                    <div class="text-overlay">Join Us</div>
+                    <p>Our clubs have cutting-edge fitness equipment to take your workout to the next level.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <h9>Meet Our Trainers-</h9>
+
+    <section class="trainer-container">
+        <div class="trainer">
+            <img src="images/Run-Man.jpg" alt="Navee">
+            <div class="trainer-details">
+                <h2>Cardio Gym Trainer</h2>
+                <p><strong>Duties:</strong> A cardio gym trainer holds certification from organizations like ACE, NASM, or ACSM and has experience creating personalized cardio workout plans. They possess knowledge of cardiovascular physiology and exercise science, ensuring safe and effective training. Proficiency in using and instructing on cardio equipment, combined with strong motivational skills, helps keep clients committed. They also conduct fitness assessments and monitor progress to adjust workouts for optimal results.</p>
+            </div>
+        </div>
+        <div class="trainer">
+            <div class="trainer-details">
+                <h2>Gym Trainer</h2>
+                <p><strong>Duties:</strong> A seasoned gym trainer with expertise in crafting personalized fitness plans tailored to individual goals and needs. With certification from reputable fitness organizations, they excel in guiding clients through effective exercise techniques and equipment usage. Their passion for fitness is matched by their dedication to motivating and supporting clients on their journey to achieving their health and wellness goals. As a knowledgeable and approachable trainer, is committed to fostering a positive and empowering gym environment for all.</p>
+            </div>
+            <img src="images/sanjay.jpg" alt="Sanjay">
+        </div>
+        <div class="trainer">
+            <img src="images/power lifters.jpg" alt="Nivas">
+            <div class="trainer-details">
+                <h2>Power Lifter</h2>
+                <p><strong>Duties:</strong> A dedicated powerlifter specializing in squat, bench press, and deadlift. With a focus on strength and technique, they follow structured training programs and prioritize nutrition and recovery for optimal performance. Their mental resilience and determination drive them to push their limits in training and competitions. embodies the spirit of powerlifting, continually striving for personal bests and fostering a supportive community within the sport.</p>
+            </div>
+        </div>
+        <div class="trainer-viewmore">
+            <a href="#" class="btn">View more</a>
+        </div>
+    </section>
+
+    <section class="our-classes">
+        <h2>OUR CLASSES</h2>
+        <p>It is imperative that everyone maximizes the time they spend exercising to help guarantee optimal results.</p>
+        <div class="class-card">
+            <div class="class-content">
+                <img src="images/cardio.jpg" alt="Cardio">
+                <h3>Cardio</h3>
+            </div>
+            <div class="class-content">
+                <img src="images/istockphoto-1279902517-612x612.jpg" alt="HIIT">
+                <h3>HIIT</h3>
+            </div>
+            <div class="class-content">
+                <img src="images/trainer.jpg" alt="Personal Training">
+                <h3>Personal Training</h3>
+            </div>
+        </div>
+        <div class="next-step"><a href="#" class="btn">View more</a></div>
+    </section>
+
+    <h2 style="text-align: center; color: blue; font-size: xxx-large; font-style: italic;">WHAT CUSTOMERS SAY</h2>
+    <div class="testimonial-container">
+        <div class="testimonial">
+            <img src="images/naveen.jpg" alt="Customer 1">
+            <div class="content">
+                <h3>Naveen</h3>
+                <p>"I've been a member of this gym for over a year now, and I couldn't be happier. The staff is incredibly friendly and knowledgeable, always ready to help with a smile. The equipment is top-notch, and there's always plenty of it, so I never have to wait long to use a machine. The classes are varied and fun, and I've seen significant improvements in my fitness since joining. Highly recommend!"</p>
+            </div>
+        </div>
+        <div class="testimonial">
+            <img src="images/uday.jpg" alt="Customer 2">
+            <div class="content">
+                <h3>Uday</h3>
+                <p>"This gym has truly changed my life. The personal trainers are outstanding and really care about helping you achieve your goals. I've lost 20 pounds and gained so much confidence since starting here. The environment is welcoming and motivating, making it easy to stay committed to my workouts. Plus, the clean and modern facilities make each visit a pleasure."</p>
+            </div>
+        </div>
+        <div class="testimonial">
+            <img src="images/nivas.jpg" alt="Customer 3">
+            <div class="content">
+                <h3>Sam Wilson</h3>
+                <p>I love the sense of community at this gym. Everyone, from the trainers to the fellow gym-goers, is supportive and encouraging. The group fitness classes are a blast and provide a great workout every time. The gym also offers excellent nutritional advice and support, which has been instrumental in my weight loss journey. I look forward to my workouts now, which is something I never thought I'd say!</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="plan-container">
+        <h2 style="text-align: center; color: blue; font-size: xxx-large; padding: 20px;">JOIN NOW</h2>
+        <div class="plan">
+            <input type="radio" id="one-year" name="plan" value="one-year">
+            <label for="one-year">
+                <div class="plan-title">One Year Plan</div>
+                <div class="plan-price">$299 / Year</div>
+                <div class="hover-content">No Term, plus free access card. $39 joining fee included, 1 month guest pass and free 2 PT class. Free access to all equipment and the swimming pool.</div>
+            </label>
+        </div>
+        <div class="plan">
+            <input type="radio" id="one-month" name="plan" value="one-month">
+            <label for="one-month">
+                <div class="plan-title">One Month Plan</div>
+                <div class="plan-price">$29 / Month</div>
+                <div class="hover-content">No Term, plus free access card. 1 month guest pass. Free access to all equipment and the swimming pool.</div>
+            </label>
+        </div>
+        <div class="plan">
+            <input type="radio" id="one-week" name="plan" value="one-week">
+            <label for="one-week">
+                <div class="plan-title">One Week Plan</div>
+                <div class="plan-price">$15 / Week</div>
+                <div class="hover-content">No Term, plus free access card. Free access to gym equipment.</div>
+            </label>
+        </div>
+        <div class="next-step"><a href="#" class="btn">Next Step</a></div>
+    </section>
+
+    <section class="section">
+        <div class="section-content">
+            <div class="content-box">
+                <img src="images/Logo01.png" alt="Pure Strength">
+                <h3>Pure Strength</h3>
+                <p>It is imperative that everyone maximizes the time they spend exercising to help guarantee results from the commitment put into achieving each goal.</p>
+            </div>
+            <div class="content-box">
+                <img src="images/Logo02.png" alt="The Challenge">
+                <h3>The Challenge</h3>
+                <p>To provide a personalized health and fitness service that unlocks every individual’s true potential so they can achieve their desired goals.</p>
+            </div>
+            <div class="content-box">
+                <img src="images/Logo03.png" alt="Our Mission">
+                <h3>Our Mission</h3>
+                <p>To become the most recognized independent fitness service provider amongst the large populations of both Bournemouth and Poole in Dorset.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="#"><i class="fab fa-github"></i> GitHub</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Classes</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Timetable</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p>123 Fitness St.<br>Bournemouth, Dorset<br>Email: info@fitness.com<br>Phone: (123) 456-7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Fitness Club. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburger = document.getElementById('hamburger');
+            const navMenu = document.getElementById('nav-menu');
+            
+            hamburger.addEventListener('click', () => {
+                navMenu.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>
